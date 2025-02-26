@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anugrah - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="background-effects">
+        <!-- Background effects content here -->
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">Anugrah</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </nav>
+
+    <!-- Homepage Section -->
+    <section id="home" class="hero">
+        <div class="tech-circles">
+            <div class="tech-circle"></div>
+            <div class="tech-circle"></div>
+            <div class="tech-circle"></div>
+            <div class="tech-circle"></div>
+            <div class="tech-circle"></div>
+        </div>
+        <div class="hero-content" data-aos="fade-up">
+            <div class="social-badges" data-aos="fade-up" data-aos-delay="100">
+                <a href="https://github.com/anugrahk21" target="_blank" class="social-badge">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/anugrah-k/" target="_blank" class="social-badge">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="profile-container" data-aos="zoom-in">
+            </div>
+            <h1 data-aos="fade-up" data-aos-delay="200" data-text="Anugrah K">Anugrah K</h1>
+            <div class="animated-text" data-aos="fade-up" data-aos-delay="400">
+                <span class="roles"></span>
+            </div>
+            <p class="tagline" data-aos="fade-up" data-aos-delay="600">Engineering Ideas into Reality</p>
+            <a href="#projects" class="cta-button" data-aos="fade-up" data-aos-delay="800">
+                Explore My Work <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="code-rain"></div>
+        <h2 data-aos="fade-up">About Me</h2>
+        <div class="about-content">
+            <div class="personal-summary" data-aos="fade-right">
+                <h3><i class="fas fa-user"></i> Who I Am</h3>
+                <p>A passionate Computer Engineering student with a drive for innovation and leadership. Experienced in programming, entrepreneurship, and community service through roles in NCC and Scouts.</p>
+            </div>
+            <div class="achievements" data-aos="fade-left">
+                <h3><i class="fas fa-trophy"></i> Key Achievements</h3>
+                <ul>
+                    <li><i class="fas fa-award"></i> Rajya Puraskar Award Recipient</li>
+                    <li><i class="fas fa-lightbulb"></i> Startup Leadership Experience</li>
+                    <li><i class="fas fa-medal"></i> NCC Cadet with Distinguished Service</li>
+                </ul>
+            </div>
+            <div class="skills" data-aos="fade-up">
+                <h3><i class="fas fa-code"></i> Skills & Tools</h3>
+                <div class="skill-tags">
+                    <span data-level="90">C++</span>
+                    <span data-level="85">Python</span>
+                    <span data-level="80">DSA</span>
+                    <span data-level="75">Linux</span>
+                    <span data-level="85">HTML</span>
+                    <span data-level="80">CSS</span>
+                    <span data-level="70">Django</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <video class="matrix-bg" autoplay muted loop playsinline>
+            <source src="assets/matrix-bg.mp4" type="video/mp4">
+        </video>
+        <div class="grid-overlay"></div>
+        <h2 data-aos="fade-up">Projects</h2>
+        <div class="projects-filter" data-aos="fade-up">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Currently Working</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Project cards will be dynamically added here -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="tech-lines"></div>
+        <h2 data-aos="fade-up">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-icon">
+                    <i class="fas fa-flag"></i>
+                </div>
+                <h3>The Bharat Scouts and Guides</h3>
+                <p class="timeline-date"><i class="far fa-calendar-alt"></i> 2018 - 2020</p>
+                <p>Leadership role focusing on community service and skill development.</p>
+                <ul class="timeline-details">
+                    <li>Led team of 20+ scouts in community service projects</li>
+                    <li>Organized multiple social service camps</li>
+                    <li>Received recognition for exceptional leadership</li>
+                </ul>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+                <h3>NCC Cadet</h3>
+                <p class="timeline-date">2019 - 2021</p>
+                <p>Participated in various camps and training programs, developing leadership and discipline.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-right">
+                <h3>Startup Experience</h3>
+                <p class="timeline-date">2021 - Present</p>
+                <p>Co-founded and led technology initiatives in startup environment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="network-particles"></div>
+        <h2 data-aos="fade-up">Get in Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" data-aos="fade-right">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder=" ">
+                    <label for="name">Your Name</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder=" ">
+                    <label for="email">Your Email</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder=" "></textarea>
+                    <label for="message">Your Message</label>
+                    <span class="focus-border"></span>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+            <div class="contact-info" data-aos="fade-left">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:anugrah.k910@gmail.com">anugrah.k910@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Phagwara, Punjab</p>
+                </div>
+                <div class="contact-social">
+                    <h3>Connect With Me</h3>
+                    <div class="contact-links">
+                        <a href="mailto:anugrah.k910@gmail.com" class="tooltip" data-tooltip="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/anugrah-k/" class="tooltip" data-tooltip="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/anugrahk21" class="tooltip" data-tooltip="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/anugrah-k/" class="tooltip" data-tooltip="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/anugrahk21" class="tooltip" data-tooltip="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://instagram.com/anugrah" class="tooltip" data-tooltip="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p class="copyright">&copy; 2025 Anugrah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
